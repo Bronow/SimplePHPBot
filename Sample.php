@@ -7,7 +7,7 @@
 # if you need Help for develop this source , You Can Send Message To Me With @SpyGuard_BOT #
 ############################################################################################
 */
-define('API_KEY','BOTTOKEN');
+define('API_KEY','262487467:AAFIO-r66p-wq9A_KId7i_5NYoQv8K6wvAA');
 //----######------
 
 function makereq($method,$datas=[]){
@@ -68,7 +68,7 @@ $textmessage = isset($update->message->text)?$update->message->text:'';
 $reply = $update->message->reply_to_message->forward_from->id;
 $stickerid = $update->message->reply_to_message->sticker->file_id;
 
-$admin = 66443035;
+$admin = 32029702;
 //-------
 function SendMessage($ChatId, $TextMsg)
 {
